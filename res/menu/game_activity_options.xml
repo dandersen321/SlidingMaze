@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dylan.andersen.finalproject.GameActivity" >
+
+    <item
+        android:id="@+id/itemRestart"
+        android:orderInCategory="1"
+        android:title="Restart Map"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/itemGetSeedNumber"
+        android:orderInCategory="1"
+        android:title="Get Seed Number"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/itemShowPath"
+        android:orderInCategory="1"
+        android:title="Show me the damn path"
+        app:showAsAction="never"/>
+
+</menu>
